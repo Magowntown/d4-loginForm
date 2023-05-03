@@ -9,6 +9,7 @@ body {
 
 .login-container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
@@ -25,10 +26,17 @@ body {
         0px 0px 0px 1px rgba(27, 31, 35, 0.04);
 }
 
+i {
+    color: #24292e;
+    font-size: 48px;
+    margin-bottom: 16px;
+}
+
 h1 {
     font-size: 26px;
     font-weight: 600;
     margin-bottom: 16px;
+    text-align: center;
 }
 
 form {
